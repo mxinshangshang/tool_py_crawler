@@ -1,0 +1,63 @@
+name: "树莓派5外壳"
+
+base_keywords:
+  - "raspberry pi 5"
+  - "rpi5"
+  - "pi5"
+  - "树莓派5"
+
+product_types:
+  - "case"
+  - "enclosure"
+  - "shell"
+  - "box"
+  - "stand"
+  - "mount"
+  - "外壳"
+  - "盒子"
+  - "支架"
+
+file_types:
+  - "dxf"
+  - "stl"
+  - "step"
+  - "svg"
+  - "dwg"
+
+materials:
+  - "acrylic"
+  - "plexiglass"
+  - "亚克力"
+
+processes:
+  - "laser cut"
+  - "laser cutting"
+  - "cnc"
+  - "激光切割"
+
+target_extensions:
+  - ".dxf"
+  - ".stl"
+  - ".step"
+  - ".stp"
+  - ".svg"
+  - ".dwg"
+
+sources:
+  - "github"
+  - "thingiverse"
+  - "printables"
+  - "google"
+
+request_delay: 4.0
+min_delay: 2.0
+max_delay: 30.0
+timeout: 30
+max_depth: 2
+max_queries: 25
+max_pages_per_source: 10
+
+verify_files: true
+deduplicate: true
+
+user_agent: "CAD-Crawler/2.0"

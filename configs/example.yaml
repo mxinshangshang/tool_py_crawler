@@ -1,0 +1,56 @@
+name: "我的配置"
+
+# 基础关键词（必填）
+base_keywords:
+  - "my project"
+  - "我的项目"
+
+# 产品类型（可选）
+product_types:
+  - "case"
+  - "enclosure"
+  - "外壳"
+
+# 文件类型（可选）
+file_types:
+  - "dxf"
+  - "stl"
+  - "svg"
+
+# 材质（可选）
+materials:
+  - "acrylic"
+
+# 工艺（可选）
+processes:
+  - "laser cut"
+
+# 目标文件扩展名（必填）
+target_extensions:
+  - ".dxf"
+  - ".stl"
+  - ".step"
+  - ".svg"
+
+# 数据源（必填）
+sources:
+  - "github"
+  - "thingiverse"
+  - "printables"
+  - "google"
+
+# 爬虫参数
+request_delay: 4.0        # 基础请求延迟（秒）
+min_delay: 2.0            # 最小延迟
+max_delay: 30.0           # 最大延迟（失败时退避）
+timeout: 30               # 请求超时（秒）
+max_depth: 2              # 最大爬取深度
+max_queries: 20           # 最大搜索词数量
+max_pages_per_source: 10  # 每个来源最大页面数
+
+# 文件处理
+verify_files: true        # 验证文件有效性
+deduplicate: true         # 去重
+
+# 用户代理
+user_agent: "CAD-Crawler/2.0"

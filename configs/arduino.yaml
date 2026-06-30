@@ -1,0 +1,45 @@
+name: "Arduino外壳"
+
+base_keywords:
+  - "arduino"
+  - "arduino uno"
+  - "arduino nano"
+  - "arduino mega"
+
+product_types:
+  - "case"
+  - "enclosure"
+  - "box"
+  - "外壳"
+  - "盒子"
+
+file_types:
+  - "dxf"
+  - "stl"
+  - "step"
+  - "svg"
+
+materials:
+  - "acrylic"
+  - "3d print"
+
+processes:
+  - "laser cut"
+  - "3d print"
+
+target_extensions:
+  - ".dxf"
+  - ".stl"
+  - ".step"
+  - ".stp"
+  - ".svg"
+
+sources:
+  - "github"
+  - "thingiverse"
+  - "printables"
+
+request_delay: 4.0
+max_queries: 20
+verify_files: true
+deduplicate: true

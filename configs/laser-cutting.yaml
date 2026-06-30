@@ -1,0 +1,48 @@
+name: "激光切割模板"
+
+base_keywords:
+  - "laser cut"
+  - "laser cutting"
+  - "激光切割"
+
+product_types:
+  - "template"
+  - "project"
+  - "box"
+  - "enclosure"
+  - "art"
+  - "decoration"
+  - "模板"
+  - "装饰"
+
+file_types:
+  - "dxf"
+  - "svg"
+  - "ai"
+  - "eps"
+  - "pdf"
+
+materials:
+  - "acrylic"
+  - "plywood"
+  - "wood"
+  - "mdf"
+  - "plexiglass"
+
+target_extensions:
+  - ".dxf"
+  - ".svg"
+  - ".ai"
+  - ".eps"
+  - ".pdf"
+
+sources:
+  - "github"
+  - "thingiverse"
+  - "printables"
+  - "google"
+
+request_delay: 4.0
+max_queries: 30
+verify_files: true
+deduplicate: true
